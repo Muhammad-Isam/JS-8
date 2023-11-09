@@ -1,0 +1,77 @@
+.parent{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    cursor: pointer;
+    padding-left: 420px;
+}
+
+.txt{
+    color: rgb(112, 162, 179);
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.c{
+padding-left: 680px;
+}
+
+.m1{
+padding-left: 500px;
+}
+.main{
+padding-left: 550px
+}
+
+.mino{
+    padding-left: 480px;
+
+}
+.sr{
+    padding-left: 580px;
+}
+.c1{
+    padding-left: 70px;
+}
+.img1{
+    width: 180px;
+    height: 200px;
+}
+.img2{
+    width: 180px;
+    height: 200px;
+}
+.img3{
+    width: 180px;
+    height: 200px;
+}
+.img4{
+    width: 180px;
+    height: 200px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  button {
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }

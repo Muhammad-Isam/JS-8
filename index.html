@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <div class="main"><a href="" alt="" onclick="alertMsg()">Click here to display alert dialog</a></div>
+    <div><div class="m1"><p class="txt">Mobile Phone Lookup</p></div>
+    <div class="parent">
+        <div ><img class="img1" src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg" onclick="imgAlert() " ></div>
+        <div ><img class="img2" src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg" onclick="imgAlert()"></div>
+        <div ><img class="img3" src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg" onclick="imgAlert()" ></div>
+        <div ><img class="img4" src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg" onclick="imgAlert()"></div>    
+    </div></div>
+
+    <h1 class="sr">Student Records</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td>Afridi</td>
+        <td>7</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Shehzad</td>
+        <td>5</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Amir</td>
+        <td>2</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Gul</td>
+        <td>9</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Fahim</td>
+        <td>0</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Ahsan</td>
+        <td>1</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Qasim</td>
+        <td>5</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Suleman</td>
+        <td>3</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Kamran</td>
+        <td>2</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Faris</td>
+        <td>1</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+    
+  <div class="mino"><img height="350px" width="600px" src="https://img.dunyanews.tv/news/2023/May/05-07-23/news_big_images/721738_38128878.jpg" onmouseover="src='https://cdn-wp.thesportsrush.com/2022/09/4310331a-virat-kohli-dedicates-71st-century-to-wife-anushka-sharma.jpg?w=3840&q=60'" onmouseout="src='https://img.dunyanews.tv/news/2023/May/05-07-23/news_big_images/721738_38128878.jpg'">
+  </div>
+  <div class="c">  
+     <h1>COUNTER</h1> 
+     <div id="counter" class="c1">0</div>
+  <input type="button" value="Increase" onclick="increaseCounter()">
+  <input type="button" value="Decrease" onclick="decreaseCounter()">
+  </div>
+    
+    
+    
+</div>
+    <script src="app.js"></script> 
+</body>
+</html>
